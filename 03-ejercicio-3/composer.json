@@ -1,0 +1,24 @@
+{
+    "name": "kleber/03-ejercicio-3",
+    "description": "Ejemplo composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kleber\\03Ejercicio3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kleber Coro",
+            "email": "kgcoro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
